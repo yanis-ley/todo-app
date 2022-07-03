@@ -34,4 +34,6 @@ formElement.addEventListener('submit', e => {
         todoDiv.remove();
     })
     e.preventDefault();
+    const ergebnis = deleteElement.type
+    console.log(ergebnis);
 });
